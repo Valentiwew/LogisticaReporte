@@ -15,7 +15,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/reportesVentas")
-@Tag(name = "ReporteVentas V1", description = "Operaciones CRUD sobre los reportes de ventas"  )
+@Tag(name = "ReporteVentas V1", description = "Operaciones CRUD sobre los reportes de ventas")
 public class ReporteVentasController {
 
     private final ReporteVentasService service;

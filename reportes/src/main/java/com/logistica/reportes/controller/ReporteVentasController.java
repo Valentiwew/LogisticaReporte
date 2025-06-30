@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/v1/reportesVentas")
+@RequestMapping("/api/v1/reportes")
 @Tag(name = "ReporteVentas V1", description = "Operaciones CRUD sobre los reportes de ventas")
 public class ReporteVentasController {
 

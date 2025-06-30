@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 @RestController
-@RequestMapping("/api/v2/reportesVentas")
+@RequestMapping("/api/v2/reportes")
 @Tag(name = "ReporteVentas V2", description = "Operaciones con reportes de ventas usando HATEOAS")
 public class ReporteVentasControllerV2 {
 
